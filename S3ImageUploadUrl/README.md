@@ -141,10 +141,12 @@ Lägg till följande policy på Lambda-rollen:
 {
   "Version": "2012-10-17",
   "Statement": [
+  "Principal": "*",
     {
       "Effect": "Allow",
       "Action": [
-        "s3:PutObject"
+        "s3:PutObject",
+        "s3:GettObject"
       ],
       "Resource": "arn:aws:s3:::YOUR_BUCKET_NAME/*"
     }

@@ -76,9 +76,7 @@ Git clone repository
 ```
 
 =======
-# Klona repot
->>>>>>> d92b56c41fe1efbecde8acdf90291779ad6de7a3
----
+# Steg 0 - Börja med att klona repot
 
 # Steg 1 – Skapa S3 Bucket
 
@@ -586,5 +584,5 @@ Ni har nu arbetat med:
 - Enterprise upload patterns
 - Event-driven arkitektur
 
-Detta är en mycket vanlig lösning i moderna molnbaserade system.
+
 

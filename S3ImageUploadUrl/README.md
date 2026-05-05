@@ -67,6 +67,7 @@ project/
 ```
 
 ---
+<<<<<<< HEAD
 
 # Börja med att hämta hem repot 
 
@@ -74,6 +75,9 @@ project/
 Git clone repository
 ```
 
+=======
+# Klona repot
+>>>>>>> d92b56c41fe1efbecde8acdf90291779ad6de7a3
 ---
 
 # Steg 1 – Skapa S3 Bucket

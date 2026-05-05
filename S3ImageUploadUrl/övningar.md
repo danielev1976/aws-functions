@@ -1,72 +1,8 @@
 
 # Lambda + API Gateway + S3 Upload med Postman
 
-## Syfte
+## Övningar
 
-I denna laboration ska ni:
-
-- Skapa en Lambda-funktion i AWS
-- Koppla Lambda till en HTTP API Gateway
-- Generera en presigned URL för uppladdning till S3
-- Ladda upp bilder direkt till S3 via Postman
-- Förstå skillnaden mellan backend-anrop och själva filuppladdningen
-- Träna på hur moderna enterprise-system laddar upp filer till S3
-
----
-
-# Arkitektur
-
-```text
-Postman
-   |
-   | POST /upload-url
-   v
-API Gateway
-   |
-   v
-Lambda (Node.js 22)
-   |
-   v
-Genererar presigned URL
-   |
-   v
-Returnerar uploadUrl
-
-Postman
-   |
-   | PUT image.jpg till uploadUrl
-   v
-S3 Bucket
-```
-
----
-
-# Förkunskaper
-
-Ni behöver:
-
-- AWS-konto
-- Behörighet att skapa:
-  - Lambda
-  - API Gateway
-  - S3 bucket
-  - IAM Roller
-- Postman installerat
-- Node.js installerat lokalt
-
----
-
-# Projektstruktur
-
-```text
-project/
-│
-├── index.mjs
-├── package.json
-└── README.md
-```
-
----
 
 # Börja med att hämta hem repot 
 
